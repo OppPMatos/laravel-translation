@@ -48,6 +48,11 @@ Publish configuration and assets
 `php artisan vendor:publish
 --provider=JoeDixon\\Translation\\TranslationServiceProvider`
 
+If the install doesn't publish the config and assets
+
+`php artisan vendor:publish --tag=config`
+`php artisan vendor:publish --tag=assets`
+
 The service provider is loaded automatically using [package discovery](https://laravel.com/docs/5.7/packages#package-discovery).
 
 ## Usage
